@@ -4,6 +4,7 @@ const actions = Array.from(
 
 let counter = localStorage.getItem('counter') || 0;
 
+
 document.querySelector(".counter-value").innerText = counter;
 
 actions.forEach(action =>{
