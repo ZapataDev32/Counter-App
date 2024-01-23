@@ -11,23 +11,25 @@
     <main>
         <h1>Counter</h1>
         <p>A simple Counting web app</p>
+        <div class="counter">
+            <div class="counter-value">0</div>
+            <div class="counter-controls">
+                <!-- data action give a string a value inside the button -->
+                <button data-action="decrease"> 
+                    <span>Decrease</span>
+                </button>
+    
+                <button data-action="reset">
+                    <span>Reset</span>
+                </button>
+    
+                <button data-action="increase">
+                    <span>Increase</span>
+                </button>
+            </div>   
+    
 
-        <div class="counter-value">0</div>
-        <div class="counter-controls">
-            <!-- data action give a string a value inside the button -->
-            <button data-action="decrease"> 
-                <span>Decrease</span>
-            </button>
-
-            <button data-action="reset">
-                <span>Reset</span>
-            </button>
-
-            <button data-action="increase">
-                <span>Increase</span>
-            </button>
-        </div>   
-
+        </div>
         <div class="save">
             <button data-action="save">
                 <span>Save</span>
